@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="min-css/main.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <title>Frontend Mentor | [Challenge Name Yazeed]</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="illustration block-rounded">
+      <div class="app">
+
+        <!-- user area -->
+        <div class="user-area notch-rounded mb-1">
+          <div class="row text-light ">  <!--remember to add notch-->
+            
+            <div class="col btn-container">
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </div>
+
+            <div class="user row col">
+              <img src="images/avatar.jpg" alt="" class="col user-img">
+              <div class="user-info">
+                <h2 class="user__name">Samuel Green</h2>
+                <p class="user__state"> Available to Walk</p>
+              </div>
+            </div>
+
+            <div class="col btn-container">
+              <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- messages area -->
+        <div class="messages-area row">
+
+          <div class="chat chat-1 mb-half">
+            <p class="chat-text">That sounds great. I’d be happy with that.</p>
+          </div>
+
+          <div class="chat chat-2 mb-1">
+            <p class="chat-text">Could you send over some pictures of your dog, please?</p>
+          </div>
+
+          <div class="reply reply-1">
+            <ul class="row">
+              <li><img src="images/dog-image-1.jpg" alt="dog image" class="reply__img image1"></li>
+              <li><img src="images/dog-image-2.jpg" alt="dog image" class="reply__img image2"></li>
+              <li><img src="images/dog-image-3.jpg" alt="dog image" class="reply__img image3"></li>
+            </ul>
+            
+          </div>
+
+          <div class="reply reply-2 my-half">
+            <p class="reply-text">Here are a few pictures. She’s a happy girl!</p>
+          </div>
+
+          <div class="reply reply-3 mb-1">
+            <p class="reply-text">Can you make it?</p>
+          </div>
+
+          <div class="chat chat-3 mb-half">
+            <p class="chat-text">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          </div>
+
+          <div class="option option-1 row text-light">
+            <div class="col">
+              <input type="radio" id="one" name="option">
+              <label for="one" class="option-text option-text-1"> 30 minute walk</label>
+            </div>
+            <h3 class="price">$29</h3>
+          </div>
+
+          <div class="option option-2 row my-1  text-light">
+            <div class="col">
+              <input type="radio" id="two" name="option">
+              <label for="two" class="option-text option-text-2 ">1 hour Walk</label>
+            </div>
+            <h3 class="price">$49</h3>
+          </div>
+
+        </div>
+
+        <!-- input area -->
+        <div class="input-area my-half">
+  
+          <div class="chat-box row">
+            <input type="text" placeholder="Type a message...">
+            <button><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="illustration-content">
+      <h1 class="illustration__title">Simple booking</h1>
+      <p  class="illustration__desc my-2"> Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yazeed</a>.
+  </div>
+
+</body>
+</html>
